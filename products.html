@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>OIMAutos Tech</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-dark">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-xl-11 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="index.html">OIMAutos</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/Oimautos_tech_darkbg-removebg-preview.png" alt="" class="img-fluid"></a> -->
+
+          <nav id="navbar" class="navbar text-center">
+            <ul>
+              <li>                            
+                <div class="search-form">
+                  <form action="" class="search d-sm-block">
+                    <div class="input-group m-0" style="height: 50px; width: 480px">
+                      <input type="text" id="search" class="form-control" placeholder="Search...">
+                      <span class="input-group-text">
+                        <i class="bi bi-search text-muted"></i>
+                      </span>
+                    </div>
+                  </form>
+                </div>
+              </li>
+              <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
+              <li><a class="nav-link scrollto" href="about.html">About</a></li>
+              <li><a class="nav-link scrollto" href="services.html">Services</a></li>
+              <li><a class="nav-link  " href="products.html">Products</a>
+              </li>
+             
+              <li class="border-start border-success ms-4">
+                <a href="wishlist.html">
+                  <span class="tt" data-bs-placement="bottom" title="Wishlist - Save products, photos, ideas...">
+                    <i class="bi bi-heart"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="cart.html">
+                  <span class="tt" data-bs-placement="bottom" title="Cart">
+                    <i class="bi bi-cart3"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#offcanvas-right" class="d-block" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvas-right">
+                  <i class="bi bi-list-nested"></i>
+                </a>
+              </li>
+            </ul>
+            
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+        </div>
+      </div>
+    </div>
+
+  </header><!-- End Header -->
+
+  <!-- right offcanvas -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-right" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label"><i class="bi bi-question-circle"></i> &nbsp;&nbsp;  Help Center</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+    </div>
+    <hr size="4">
+    <div class="offcanvas-body">
+      <h4 class="lead text-dark">Departments</h4>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-terminal-x"></i> &nbsp; Interior Accessories</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-mortarboard"></i> &nbsp; Exterior Accessories</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-displayport-fill"></i> &nbsp; Performance Parts</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-device-ssd-fill"></i> &nbsp; Automotive Lighting</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-thunderbolt"></i> &nbsp; Wheels and Tyres</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-optical-audio-fill"></i> &nbsp; Repair Parts</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-motherboard-fill"></i> &nbsp; Body Parts</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-gpu-card"></i> &nbsp; Audio and Electronics</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-boombox-fill"></i> &nbsp; Automotive Tools</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-explicit-fill"></i> &nbsp; Motorcycle Shop</a></div>
+      <div class="mb-3"><a href="products.html" class="text-dark"><i class="bi bi-ethernet"></i> &nbsp; Specialty Shop</a></div>
+      <div class="mb-3"><a href="wishlist.html" class="text-dark">Wish List</a></div>
+      <div class="mb-3"><a href="my-account.html" class="text-dark">My Account</a></div>
+      <div class="mb-3"><a href="contact.html" class="text-dark">Contact Us</a></div>
+    </div>
+  </div>
+  <!-- end of right offcanvas -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Products</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Products</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+    <section class="inner-page mt-4">
+      <div class="container">
+
+    <!-- ======= Products Section ======= -->
+    <section id="portfolio" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header mb-5">
+          <h3 class="section-title"> Internal Accessaries</h3>
+        </header>
+
+      <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Crank Shaft</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/app2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Side Mirror</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/app3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Front Bonet</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/app4.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/app4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Front Bonet</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> External Accessaries</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/card1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 1"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Exhaust Pipe</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/card2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Rubber Tyre</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/card3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Strong Wheels</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>                
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/card4.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/card4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Card 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Strong Wheels</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> Performance Accessaries</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/web1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Foot Mat</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/web2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">Seat</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/web3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/web4.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/web4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> Lighting Accessaries</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/lighting1.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/lighting1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/lighting2.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/lighting2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/lighting3.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/lighting3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/lighting4.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/lighting4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> Parts</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/parts1.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/parts1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/parts2.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/parts2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/parts3.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/parts3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/parts4.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/parts4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> Body Parts</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/body1.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/body1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/body2.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/body2.jfif" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/body3.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/body3.jfif" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/body4.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/body4.jfif" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> Audio & Electronics</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/audio1.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/audio1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/audio2.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/audio2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/audio3.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/audio3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/audio4.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/audio4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> Automotive Tools</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/automotive1.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/automotive1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/automotive2.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/automotive2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/automotive3.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/automotive3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/automotive4.jpg" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/automotive4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section id="portfolio" class="section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header mb-5">
+        <h3 class="section-title"> Specialty</h3>
+      </header>
+
+    <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="120">
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/specialty1.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/specialty1.jfif" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/specialty2.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/specialty2.jfif" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/specialty3.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/specialty3.jfif" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 portfolio-item">
+          <div class="portfolio-wrap pb-3">
+            <figure>
+              <img src="assets/img/portfolio/specialty4.jfif" class="img-fluid" alt="">
+              <a href="assets/img/portfolio/specialty4.jfif" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+              <a href="product-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4><a href="product-details.html">360 Steering</a></h4>
+              <span class="text-dark">Cost: $9.00</span> 
+              <span class="btn btn-secondary btn-small rounded-pill" style="margin-left: 35px; font-size: xx-small; cursor:context-menu;">unavailable</span>
+              <p><a href="">Add to Cart &nbsp;&nbsp; <i class="bi bi-cart"></i></a></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>OIMAutos</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="tos.html">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="pp.html">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              No.123 Cheleku Street <br>
+              Amawbia Awka, Anambra State 535022<br>
+              Nigeria <br>
+              <strong>Phone:</strong> (+234) 8160176221<br>
+              <strong>Email:</strong> oimautostech@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>OIMAutos</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://iceztech.com/">IcezTech</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Uncomment below if you want to use a preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    const tooltips = document.querySelectorAll('.tt')
+    tooltips.forEach(t => {
+      new bootstrap.Tooltip(t)
+    })
+  </script>
+
+</body>
+
+</html>
