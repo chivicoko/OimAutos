@@ -125,8 +125,11 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Order</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Order</li>
+            <li class="mt-1"><a href="index.html">Home</a></li>
+            <li class="mt-1">Order</li>
+            <ul>
+              <li class="ms-2" style="list-style-type:none;"><a class="btn btn-success btn-sm" href="order-tracker.html"><i class="bi bi-arrow-right-short"></i> Track Order</a></li>
+            </ul>
           </ol>
         </div>
 
@@ -135,15 +138,14 @@
 
     <section class="inner-page mt-4">
       <div class="container">
-          
-        <h3 class="text-center my-5">
-          <a href="cart.html" class="text-secondary">Shopping Cart</a> <i class="bi bi-arrow-right"></i> 
-          <a href="checkout.html" class="text-secondary">Checkout</a> <i class="bi bi-arrow-right"></i> 
-          <a href="order.html">Order Complete</a>
-        </h3>
-          
-        <div class="text-center my-5 border border-transparent shadow rounded-pill py-5">
+
+        <!-- <div class="text-center mb-5 border border-transparent shadow rounded-pill py-5">
           <h4><strong>Thank you. Your order has been received</strong></h4>
+        </div> -->
+
+        <div class="alert text-center alert-success alert-dismissible fade show" role="alert">
+          Transaction completed. Your order has been received. You can start tracking your order now
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
 
         <div class="bd-example my-5">

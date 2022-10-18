@@ -26,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -54,6 +55,7 @@
                   </form>
                 </div>
               </li>
+              <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
               <li><a class="nav-link scrollto" href="about.html">About</a></li>
               <li><a class="nav-link scrollto" href="services.html">Services</a></li>
               <li><a class="nav-link  " href="products.html">Products</a>
@@ -110,6 +112,7 @@
       <div class="mb-3"><a href="wishlist.html" class="text-dark">Wish List</a></div>
       <div class="mb-3"><a href="my-account.html" class="text-dark">My Account</a></div>
       <div class="mb-3"><a href="contact.html" class="text-dark">Contact Us</a></div>
+      <div class="mb-3"><a href="login.html" class="text-dark">Logout</a></div>
     </div>
   </div>
   <!-- end of right offcanvas -->
@@ -121,10 +124,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Checkout</h2>
+          <h2>My Account</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Checkout</li>
+            <li>My Account</li>
           </ol>
         </div>
 
@@ -135,112 +138,72 @@
       <div class="container">
         
         <div class="row justify-content-between">
-          <div class="col-8 my-5 lead">
-
-            <h4>Address</h4>
-            <div class="row justify-content-between mt-4 mb-5">
-              <div class="col-6 mb-4">
-                <label for="">First Name*</label> <br>
-                <input type="text" class="form-control border-secondary g-1" placeholder="Enter First Name">
-              </div>
-              <div class="col-6 mb-4">
-                <label for="">Last Name*</label> <br>
-                <input type="text" class="form-control border-secondary g-1" placeholder="Enter Last Name">
-              </div>
-              <div class="col-6 mb-4">
-                <label for="">Username</label> <br>
-                <input type="text" class="form-control border-secondary g-1" placeholder="Enter Username">
-              </div>
-              <div class="col-6 mb-4">
-                <label for="">Email Address</label> <br>
-                <input type="text" class="form-control border-secondary g-1" placeholder="Enter Email Address">
-              </div>
-              <div class="col-12 mb-4">
-                <label for="">Address 1*</label> <br>
-                <input type="text" class="form-control border-secondary g-1" placeholder="No.4 Uwabuike St. Unizik Road, Anambra State, Nigeria.">
-              </div>
-              <div class="col-4 mb-4">
-                <label for="">Country</label> <br>
-                <select name="" id="">
-                  <option value="">Nigeria</option>
-                  <option value="">USA</option>
-                  <option value="">UK</option>
-                  <option value="">Berlin</option>
-                  <option value="">Kenya</option>
-                  <option value="">Ghana</option>
-                  <option value="">Cameroun</option>
-                </select>
-              </div>
-              <div class="col-4 mb-4">
-                <label for="">State</label> <br>
-                <select name="" id="">
-                  <option value="">Lagos</option>
-                  <option value="">ABuja</option>
-                  <option value="">Enugu</option>
-                  <option value="">Anambra</option>
-                  <option value="">Abia</option>
-                </select>
-              </div>
-              <div class="col-4 mb-4">
-                <label for="">Zipcode</label> <br>
-                <input type="text" class="form-control border-secondary g-1" placeholder="Enter Zipcode">
-              </div>
-
-            </div>
-
-            <hr>
-            <h4>Payment</h4>
-            <small>You need to make your initial payment for this transaction to continue</small> <br>
-            <input type="radio" name="" id=""> Credit Card &nbsp;&nbsp; <input type="radio" name="" id=""> Debit Card &nbsp;&nbsp; <input type="radio" name="" id=""> Paypal &nbsp;&nbsp;
-
-            <div class="row justify-content-between mt-4">
-              <div class="col-6 mb-4">
-                <label for="">Name on Card*</label> <br>
-                <input type="text" class="form-control border-secondary g-1"> <small style="font-size: 13px;">Full name as displayed on card*</small>
-              </div>
-              <div class="col-6 mb-4">
-                <label for="">Credit Card Number*</label> <br>
-                <input type="text" class="form-control border-secondary g-1">
-              </div>
-            </div>
-            <div class="row justify-content-start">
-              <div class="col-4 mb-4">
-                <label for="">Expiration*</label> <br>
-                <input type="date" class="">
-              </div>
-              <div class="col-4 mb-4">
-                <label for="">CVV*</label> <br>
-                <input type="text" class="">
-              </div>
-            </div>
-            <div class="row justify-content-center mt-4 mb-5">
-              <div class="col"><a href="order.html" class="btn btn-success form-control">Proceed</a></div>
-            </div>
-
+          <div class="col-3">
+            <strong class="text-dark"><a class="text-dark" href="dashboard.html">Dashboard</a></strong> <hr>
+            <strong class="text-dark"><a class="text-dark" href="order-list-view.html">Orders</a></strong> <hr>
+            <strong class="text-dark"><a class="text-dark" href="downloads.html">Downloads</a></strong> <hr>
+            <strong class="text-dark"><a class="text-dark" href="addresses.html">Addresses</a></strong> <hr>
+            <strong class="text-dark"><a class="text-dark" href="wishlist.html">Wishlist</a></strong> <hr>
+            <strong class="text-dark"><a class="text-dark" href="account-details.html">Account Details</a></strong> <hr>
+            <strong class="text-dark"><a class="text-dark" href="wallet.html">Wallet</a></strong> <hr>
+            <strong class="text-dark"><a class="text-dark" href="login.html">Logout</a></strong> <hr>
           </div>
- 
-          <div class="col-4 border-start my-5">
+
+          <div class="col-9">
+                
+            <strong class="lead text-dark"><i class="bi bi-person-fill"></i> Account Details</strong>
             
-            <h5>COUPON DISCOUNT</h5>
-            <div class="bd-example">
-              <div class="list-group mb-5">
-                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Engine Gaskette &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $33.00</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Engine Gaskette &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $33.00</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Engine Gaskette &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $33.00</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Engine Gaskette &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $33.00</a>
-                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Engine Gaskette &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $33.00</a>
-                <a href="#" class="list-group-item list-group-item-action"><span style="font-weight: 800;">Total :</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-weight: 800;">$340.09</span> </a>
+          <!-- Summary Sidebar Section -->
+          <div class="col-9 mb-5 lead justify-content-center">
+            <div class="row">
+              <div class="col">
+                
+               <!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+                <div class="row my-5">
+                  <div class="col-lg-12">
+                    <form action="">
+                      
+                      <div class="input-group mb-4" style="width: 750px;">
+                        <input type="text" id="firstname" class="form-control" placeholder="First Name"> &nbsp;&nbsp;
+                        <input type="text" id="lastname" class="form-control" placeholder="Last Name">
+                      </div>
+
+                      <div class="input-group mb-4" style="width: 750px;">
+                        <input type="text" id="displayname" class="form-control" placeholder="Display Name">
+                      </div>
+                      <small class="h6">This is how your name will be displayed in the account section and reviews</small> <br><br><br>
+                      
+                      <div class="input-group mb-4" style="width: 750px;">
+                        <input type="email" id="email" class="form-control" placeholder="Email Address">
+                      </div>
+                      
+                      <div class="input-group mb-4" style="width: 750px;">
+                        <input type="password" id="password" class="form-control" placeholder="Current password">
+                      </div>
+                      
+                      <div class="input-group mb-4" style="width: 750px;">
+                        <input type="password" id="newpassword" class="form-control" placeholder="New password">
+                      </div>
+                      
+                      <div class="input-group mb-4" style="width: 750px;">
+                        <input type="password" id="confirmpassword" class="form-control" placeholder="Confirm New password">
+                      </div>
+
+                      <div class="text-center" style="width: 250px;">
+                        <a href="" type="submit" class="btn btn-dark">SAVE CHANGES <i class="bi bi-arrow-right"></i> </a>
+                      </div>
+
+                    </form>
+                  </div>
+                </div>
+                <!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+
               </div>
-              </div>
-            
-            
-            <div class="my-3">
-              <h5>COUPON DISCOUNT</h5>
-              <input type="text" class="form-control mb-3" placeholder="Enter coupon code here...">
-              <button class="btn btn-outline-dark">APPLY COUPON</button>
             </div>
           </div>
-          
+          <!-- End of Summary Sidebar Section -->
+            
+          </div>
         </div>
 
       </div>
@@ -307,6 +270,12 @@
         &copy; Copyright <strong>OIMAutos</strong>. All Rights Reserved
       </div>
       <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+      -->
         Designed by <a href="https://iceztech.com/">IcezTech</a>
       </div>
     </div>

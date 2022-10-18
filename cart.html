@@ -26,13 +26,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: BizPage - v5.8.0
-  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -165,196 +158,119 @@
 
       </div>
     </section><!-- End Breadcrumbs Section -->
-
-    <h3 class="text-center my-5">
-      <a href="cart.html">Shopping Cart</a> <i class="bi bi-arrow-right"></i> 
-      <a href="checkout.html" class="text-secondary">Checkout</a> <i class="bi bi-arrow-right"></i> 
-      <a href="order.html" class="text-secondary">Order Complete</a>
-    </h3>
-
+  
     <section class="inner-page mt-4">
       <div class="container">
         
         <div class="row justify-content-between">
 
-          <div class="col-8 my-5 lead">
-            <h3 class="text-center mb-5">Cart Section</h3>
-            <div class="row justify-content-center">
-
-              <div class="col-4 mb-5">
-                <div class="card">
-                  <img src="assets/img/pexels-pixabay-65623.jpg" alt="" class="img-fluid">
-    
-                  <div class="card-body">
-                    <p class="card-text">Engine Tank</p>
-                    <span class="h6 m-0 p-0">
-                      <small>Price: $150.00</small> <br>
-                      <small>Quantity: <input type="number" name="quantity" value="1" id="product-quantity" style="width: 90px;"></small> <br>
-                      <small>Total Price: $150.00</small>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-4 mb-5">
-                <div class="card">
-                  <img src="assets/img/pexels-pixabay-65623.jpg" alt="" class="img-fluid">
-    
-                  <div class="card-body">
-                    <p class="card-text">Engine Tank</p>
-                    <span class="h6 m-0 p-0">
-                      <small>Price: $150.00</small> <br>
-                      <small>Quantity: <input type="number" name="quantity" value="2" id="product-quantity" style="width: 90px;"></small> <br>
-                      <small>Total Price: $300.00</small>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-4 mb-5">
-                <div class="card">
-                  <img src="assets/img/pexels-pixabay-65623.jpg" alt="" class="img-fluid">
-    
-                  <div class="card-body">
-                    <p class="card-text">Engine Tank</p>
-                    <span class="h6 m-0 p-0">
-                      <small>Price: $150.00</small> <br>
-                      <small>Quantity: <input type="number" name="quantity" value="1" id="product-quantity" style="width: 90px;"></small> <br>
-                      <small>Total Price: $150.00</small>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-4 mb-5">
-                <div class="card">
-                  <img src="assets/img/pexels-pixabay-65623.jpg" alt="" class="img-fluid">
-    
-                  <div class="card-body">
-                    <p class="card-text">Engine Tank</p>
-                    <span class="h6 m-0 p-0">
-                      <small>Price: $150.00</small> <br>
-                      <small>Quantity: <input type="number" name="quantity" value="4" id="product-quantity" style="width: 90px;"></small> <br>
-                      <small>Total Price: $600.00</small>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-4 mb-5">
-                <div class="card">
-                  <img src="assets/img/pexels-pixabay-65623.jpg" alt="" class="img-fluid">
-    
-                  <div class="card-body">
-                    <p class="card-text">Engine Tank</p>
-                    <span class="h6 m-0 p-0">
-                      <small>Price: $150.00</small> <br>
-                      <small>Quantity: <input type="number" name="quantity" value="7" id="product-quantity" style="width: 90px;"></small> <br>
-                      <small>Total Price: $1050.00</small>
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="row justify-content-center mb-5">
-              <div class="col-3"><a href="products.html" class="btn btn-success btn-sm"><i class="bi bi-arrow-left"></i> Continue Shopping</a></div>
-              <div class="col-2"><a href="#" class="btn btn-secondary btn-sm">Clear Cart</a></div>
-            </div>
-
-            <div class="my-3">
-              <h5>COUPON DISCOUNT</h5>
-              <input type="text" class="form-control mb-3" placeholder="Enter coupon code here...">
-              <button class="btn btn-outline-dark">APPLY COUPON</button>
-            </div>
-          </div>
-          
-          <!-- Summary Sidebar Section -->
-          <div class="col-3 my-5 lead justify-content-center">
-            <span>Summary Product Section</span>
-            <div class="row">
-              <div class="col">
+          <div class="col-12">
                 
-               <!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
-                <div class="row my-5">
-                  <div class="col-lg-6">
-                    <form action="">
+            <div class="row justify-content-between">
+              <strong class="col-2 lead text-dark"><i class="bi bi-card-checklist"></i> Cart</strong>
+              <strong class="col-2 btn btn-success lead"><a href="checkout.html" class="text-white">Checkout <i class="bi bi-arrow-right"></i></a></strong>
+            </div>
 
-                      <fieldset class="mb-3">
+            <div class="bd-example my-5">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col" style="">Action</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="assets/img/pexels-mo-eid-2521559.jpg" style="width: 80px; height:auto;" alt="" class="img-fluid"></td>
+                    <td>Foot Mat</td>
+                    <td>3</td>
+                    <td>$275.09 for 1 item</td>
+                    <td>
+                      <a href="product-details.html" class="btn btn-success btn-sm" title="view"><i class="bi bi-eye"></i></a> &nbsp;
+                      <a href="cart.html" class="btn btn-danger btn-sm" title="delete"><i class="bi bi-trash"></i></a>
+                    </td>
+                    <td><span style="font-weight: 800;">$895.09</span></td>
+                  </tr>
+                  <tr>
+                    <td><img src="assets/img/red car.jpg" style="width: 80px; height:auto;" alt="" class="img-fluid"></td>
+                    <td>Front Light</td>
+                    <td>4</td>
+                    <td>$275.09 for 1 item</td>
+                    <td>
+                      <a href="product-details.html" class="btn btn-success btn-sm" title="view"><i class="bi bi-eye"></i></a> &nbsp;
+                      <a href="cart.html" class="btn btn-danger btn-sm" title="delete"><i class="bi bi-trash"></i></a>
+                    </td>
+                    <td><span style="font-weight: 800;">$895.09</span></td>
+                  </tr>
+                  <tr>
+                    <td><img src="assets/img/pexels-pixabay-159293.jpg" style="width: 80px; height:auto;" alt="" class="img-fluid"></td>
+                    <td>Seat Belt</td>
+                    <td>7</td>
+                    <td>$275.09 for 1 item</td>
+                    <td>
+                      <a href="product-details.html" class="btn btn-success btn-sm" title="view"><i class="bi bi-eye"></i></a> &nbsp;
+                      <a href="cart.html" class="btn btn-danger btn-sm" title="delete"><i class="bi bi-trash"></i></a>
+                    </td>
+                    <td><span style="font-weight: 800;">$1,895.09</span></td>
+                  </tr>
+                  <tr>
+                    <td><img src="assets/img/pexels-pixabay-65623.jpg" style="width: 80px; height:auto;" alt="" class="img-fluid"></td>
+                    <td>Windscreen</td>
+                    <td>2</td>
+                    <td>$275.09 for 1 item</td>
+                    <td>
+                      <a href="product-details.html" class="btn btn-success btn-sm" title="view"><i class="bi bi-eye"></i></a> &nbsp;
+                      <a href="cart.html" class="btn btn-danger btn-sm" title="delete"><i class="bi bi-trash"></i></a>
+                    </td>
+                    <td><span style="font-weight: 800;">$443.09</span></td>
+                  </tr>
+                  <tr>
+                    <td><img src="assets/img/pexels-pixabay-159293.jpg" style="width: 80px; height:auto;" alt="" class="img-fluid"></td>
+                    <td>Synthetic Tyre</td>
+                    <td>1</td>
+                    <td>$275.09 for 1 item</td>
+                    <td>
+                      <a href="product-details.html" class="btn btn-success btn-sm" title="view"><i class="bi bi-eye"></i></a> &nbsp;
+                      <a href="cart.html" class="btn btn-danger btn-sm" title="delete"><i class="bi bi-trash"></i></a>
+                    </td>
+                    <td><span style="font-weight: 800;">$275.09</span></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
 
-                        <label style="width: 250px;">Shipping</label>
-
-                        <div class="form-check">
-                          <input type="radio" name="radios" class="form-check-input" id="freeshipping">
-                          <label class="form-check-label h6" style="width: 250px;" for="freeshipping">Free Shipping</label>
-                        </div>
-
-                        <div class="form-check">
-                          <input type="radio" name="radios" class="form-check-input" id="localpickup">
-                          <label class="form-check-label h6" style="width: 250px;" for="localpickup">Local Pickup</label>
-                        </div>
-
-                        <div class="mb-3 form-check">
-                          <input type="radio" name="radios" class="form-check-input" id="flatrate">
-                          <label class="form-check-label h6" style="width: 250px;" for="flatrate">Flat Rate: $5.00</label>
-                        </div>
-
-                      </fieldset>
-
-                      <div class="input-group mb-4" style="width: 250px;">
-                        <select name="subject-options" id="subject" class="form-select">
-                          <option value="pricing" selected>Nigeria</option>
-                          <option value="content">Ghana</option>
-                          <option value="other">Cameroon</option>
-                          <option value="other">kenya</option>
-                        </select>
-                      </div>
-                      
-                      <div class="input-group mb-4" style="width: 250px;">
-                        <select name="subject-options" id="subject" class="form-select">
-                          <option value="pricing" selected>Nigeria</option>
-                          <option value="content">USA</option>
-                        </select>
-                      </div>
-                      
-                      
-                      <div class="input-group mb-4" style="width: 250px;">
-                        <input type="email" id="email" class="form-control" placeholder="eg. veecee@example.com">
-                      </div>
-
-                      
-                      <div class="input-group mb-4" style="width: 250px;">
-                        <input type="text" id="name" class="form-control" placeholder="eg. VeeCee">
-                      </div>
-
-
-                      <div class="mb-5 text-center">
-                        <button type="submit" class="btn btn-outline-secondary">Update Total</button>
-                      </div>
-
-                      <div class="row mb-4 text-center justify-content-between h6">
-                          <div class="col-2">Total</div>
-                          <div class="col-2">$500.00</div>
-                      </div>
-
-                      <div class="text-center" style="width: 250px;">
-                        <a href="checkout.html" type="submit" class="btn btn-dark">PROCEED TO CHECKOUT <i class="bi bi-arrow-right"></i> </a>
-                      </div>
-
-                    </form>
-                  </div>
-                </div>
-                <!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
-
+            <div class="row mb-5">
+              <input type="text" class="col-3 me-2" placeholder="Coupon Code">
+              <strong class="col-2 btn btn-success lead text-dark"><a href="checkout.html" class="text-white">Checkout <i class="bi bi-arrow-right"></i></a></strong>
+            </div>
+            <div class="row">
+              <div class="col-9"></div>
+              <div class="col-3">
+                <h3>Cart Totals</h3>
+                <p>
+                  Coupon Discount <span class="text-success"><i class="bi bi-arrow-right-short"></i></span> &nbsp;&nbsp;&nbsp;&nbsp; <span style="font-weight: 800;">$304.09</span> <br>
+                  Total <span class="text-success"><i class="bi bi-arrow-right-short"></i></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-weight: 800;">$10,984.09</span>
+                </p>
               </div>
             </div>
+            
+            <div class="row justify-content-between mb-5">
+              <strong class="col-2 btn btn-secondary lead text-dark"><a href="products.html" class="text-white"><i class="bi bi-arrow-left"></i> Continue Shopping</a></strong>
+              <strong class="col-3 btn btn-success lead text-dark"><a href="checkout.html" class="text-white">Checkout <i class="bi bi-arrow-right"></i></a></strong>
+            </div>
+            
+            
+            
           </div>
-          <!-- End of Summary Sidebar Section -->
         </div>
 
       </div>
     </section>
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -423,7 +339,7 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
